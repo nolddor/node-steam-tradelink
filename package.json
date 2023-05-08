@@ -1,6 +1,6 @@
 {
   "name": "@nolddor/steam-tradelink",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This module provides a SteamTradeLink object which makes Steam trade link usage easy",
   "main": "index.js",
   "scripts": {

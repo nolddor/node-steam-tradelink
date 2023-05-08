@@ -1,7 +1,7 @@
 const SteamTradeLink = require('./index')
 const SteamID = require('steamid')
 
-const token = 'gIfL8D7z'
+const token = '6-DUbm0_'
 const accountid = 1022946155
 const url = `https://steamcommunity.com/tradeoffer/new/?partner=${accountid}&token=${token}`
 

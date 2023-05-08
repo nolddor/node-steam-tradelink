@@ -10,7 +10,7 @@ class SteamTradeLink {
             return
         }
 
-        const matches = input.match(/^https?:\/\/steamcommunity.com\/tradeoffer\/new\/\?partner=([0-9]+)&token=([a-zA-Z0-9]+)$/)
+        const matches = input.match(/^https?:\/\/steamcommunity.com\/tradeoffer\/new\/\?partner=([0-9]+)&token=([a-zA-Z0-9_-]{8})$/)
         if (matches) {
             /* eslint-disable-next-line no-unused-vars */
             const [_, partner, token] = matches
