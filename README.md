@@ -20,18 +20,29 @@ You can create a SteamTradeLink object from a tradelink URL, or from the four pa
 ```js
 const SteamTradeLink = require('@nolddor/steam-tradelink')
 let tradelink = new SteamTradeLink('https://steamcommunity.com/tradeoffer/new/?partner=1022946155&token=gIfL8D7z')
+let partner = tradelink.getPartner()
+let token = tradelink.getToken()
 ```
 
 ## SteamTradeLink Parts
 ```js
 const SteamTradeLink = require('@nolddor/steam-tradelink')
 let tradelink = SteamTradeLink.of(1022946155, 'gIfL8D7z')
+let url = tradelink.toURL()
 ```
 
 # Using a SteamTradeLink
 
 Once you have created a `SteamTradeLink` object, you can access its properties (`token`, and `partner`),
 or you can render it as URL.
+
+## getToken()
+
+Returns this `token` SteamTradeLink part.
+
+## getPartner()
+
+Returns this `partner` SteamTradeLink part as **[SteamID](https://www.npmjs.com/package/steamid)** class.
 
 ## isValid()
 
