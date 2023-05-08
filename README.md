@@ -57,3 +57,6 @@ Returns the SteamTradeLink object as URL. Throws an error if the tradelink isn't
 # Tests
 
 Use `npm run test` to run the included test suite.
+
+---
+Made with ❤️ by [Jack Nolddor](https://steamcommunity.com/id/nolddor)
