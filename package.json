@@ -13,10 +13,7 @@
 	"bugs": {
 		"url": "https://github.com/nolddor/node-steam-tradelinkissues"
 	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/nolddor/node-steam-tradelink.git"
-	},
+  "repository": "github:nolddor/node-steam-tradelink",
   "keywords": [
     "steam",
     "tradelink"
